@@ -1,44 +1,30 @@
-\# System Design
+\## System Flow
 
 
 
-\## Architecture
-
-ESP32 → Edge Processing → Backend API → Database → Dashboard
+Sensors → ESP32 → Processing → Stress Classification → Output
 
 
 
 \## Components
 
-\- Temperature (Potentiometer)
+\- Temperature sensor (simulated)
 
-\- Light (LDR)
+\- LDR (light)
 
-\- Motion (PIR)
-
-\- Output: LED + Buzzer
+\- PIR (motion)
 
 
 
-\## Edge Logic
+\## Processing
 
-\- High temperature
+\- Data smoothing
 
-\- Low light
-
-\- No motion → Stress HIGH
+\- Threshold-based classification
 
 
 
-\## GPIO Mapping
+\## Output
 
-\- GPIO34 → Temperature
-
-\- GPIO35 → Light
-
-\- GPIO32 → Motion
-
-\- GPIO25 → LED
-
-\- GPIO26 → Buzzer
+\- LED and buzzer alert system
 
