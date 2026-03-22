@@ -47,6 +47,4 @@ Simulates cognitive load estimation using environmental proxies and performs rea
 
 ## 🔗 Wokwi Simulation
 
-You can view and run the simulation here:
-
-👉https://wokwi.com/projects/459218733045000193
+[▶️ Run Simulation on Wokwi]((https://wokwi.com/projects/459218733045000193))
