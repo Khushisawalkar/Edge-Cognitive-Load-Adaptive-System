@@ -44,3 +44,7 @@ Simulates cognitive load estimation using environmental proxies and performs rea
 * ESP32
 * Arduino
 * Wokwi Simulation
+
+## 🔗 Wokwi Simulation
+
+[▶️ Run Simulation on Wokwi](https://wokwi.com/projects/YOUR-PROJECT-LINK)
